@@ -1,5 +1,5 @@
 # jackson support
-## 1. @GeneratedField
+## 1. @GenerateField
 在对外序列化成 string 时，根据 @GenerateField生成原 java 对象未字义的字段。适用于一些特殊场景，比如 S3/oss 对象的 URL：在后台操作时我们一般只关注存储的相对路径，但是当输出给前端的会是完整可访问的 URL。此时在 JSON序列化阶段做一个统一的转换操作是一个简洁优雅的方式。
 例:
 ```java
