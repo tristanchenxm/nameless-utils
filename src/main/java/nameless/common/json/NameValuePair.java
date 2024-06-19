@@ -1,4 +1,4 @@
-package nameless.common.util;
+package nameless.common.json;
 
 /**
  * name value pair with extra field failOnUnknownProperties.

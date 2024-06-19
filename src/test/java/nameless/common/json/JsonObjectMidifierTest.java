@@ -1,4 +1,4 @@
-package nameless.common.util;
+package nameless.common.json;
 
 
 import org.junit.jupiter.api.Assertions;
