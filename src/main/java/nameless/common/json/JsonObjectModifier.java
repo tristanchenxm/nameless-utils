@@ -10,6 +10,8 @@ import java.util.*;
 
 /**
  * Utility class to modify json fields by specifying the path to the field.
+ * for example, given a json object: {"a": {"b": 1, "c": [1, 2, 3]}},
+ * you can modify the value of "c[0]" by calling setObjectFieldValue(json, Collections.singletonList(new NameValuePair("a.b.c[1]", 1000)))
  */
 @SuppressWarnings("unchecked")
 public class JsonObjectModifier {
